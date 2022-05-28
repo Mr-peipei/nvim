@@ -120,10 +120,13 @@ end
 
 local lsp_installer = require "nvim-lsp-installer"
 local lspconfig = require "lspconfig"
+-- The nvim-cmp almost supports LSP's capabilities so You should advertise it to LSP servers..
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
 lsp_installer.setup()
 for _, server in ipairs(lsp_installer.get_installed_servers()) do
   lspconfig[server.name].setup {
     on_attach = on_attach,
-    capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities())
+    capabilities =capabilities 
   }
 end
