@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\murakami\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["cmp-nvim-lua"] = {
+    loaded = true,
+    path = "C:\\Users\\murakami\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lua",
+    url = "https://github.com/hrsh7th/cmp-nvim-lua"
+  },
   ["cmp-path"] = {
     loaded = true,
     path = "C:\\Users\\murakami\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
@@ -108,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\murakami\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fern.vim",
     url = "https://github.com/lambdalisue/fern.vim"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\murakami\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["iswap.nvim"] = {
     loaded = true,

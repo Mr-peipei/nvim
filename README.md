@@ -4,6 +4,8 @@
 
 ## For Windows
 
+### Install gcc
+
 Go to a Neovim home page and download neovim(version +0.70) msi file.
 Install by msi file.
 
@@ -23,3 +25,28 @@ Install gcc
 scoop install gcc
 
 ```
+
+### Setup windows terminal
+
+For powershell the installation is:
+```
+Install-Module oh-my-posh -Scope CurrentUser
+```
+
+You can check theme by below the command
+```
+Get-PoshThemes
+```
+
+To import your theme on startup, create your profile
+```
+nvim $PROFILE
+```
+```
+Set-PoshPrompt -Theme hogehoge
+```
+
+
+### Install NerdFont
+
+You can downloads nerds fonts by this [link](https://www.nerdfonts.com/font-downloads).
