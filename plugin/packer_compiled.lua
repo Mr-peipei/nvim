@@ -104,16 +104,6 @@ _G.packer_plugins = {
     path = "/home/murakami/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["fern-git-status.vim"] = {
-    loaded = true,
-    path = "/home/murakami/.local/share/nvim/site/pack/packer/start/fern-git-status.vim",
-    url = "https://github.com/lambdalisue/fern-git-status.vim"
-  },
-  ["fern.vim"] = {
-    loaded = true,
-    path = "/home/murakami/.local/share/nvim/site/pack/packer/start/fern.vim",
-    url = "https://github.com/lambdalisue/fern.vim"
-  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/murakami/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
@@ -148,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/murakami/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/murakami/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,

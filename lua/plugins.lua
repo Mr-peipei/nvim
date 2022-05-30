@@ -14,8 +14,8 @@ return require('packer').startup(function()
   use 'tpope/vim-fugitive'
   use 'tpope/vim-commentary' 
   use 'tomasiser/vim-code-dark' ---vimのカラースキーマ
-  use 'lambdalisue/fern.vim' ---ファイラー
-  use 'lambdalisue/fern-git-status.vim' ---ファイルツリーにgit差分表示
+  -- use 'lambdalisue/fern.vim' ---ファイラー
+  -- use 'lambdalisue/fern-git-status.vim' ---ファイルツリーにgit差分表示
   use 'lambdalisue/nerdfont.vim' ---ファイラーのアイコン用
   use 'leafgarland/typescript-vim' ---Typescriptのカラースキーマ
   -- use {'neoclide/coc.nvim', branch='release'}
@@ -25,6 +25,13 @@ return require('packer').startup(function()
   use 'kyazdani42/nvim-web-devicons'
   use 'romgrk/barbar.nvim'
   use 'nvim-lualine/lualine.nvim'
+  use {
+      'kyazdani42/nvim-tree.lua',
+      requires = {
+        'kyazdani42/nvim-web-devicons', -- optional, for file icon
+      },
+      tag = 'nightly' -- optional, updated every week. (see issue #1193)
+  }
 
 
   -- Treesitter
