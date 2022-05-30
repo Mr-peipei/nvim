@@ -24,6 +24,7 @@ return require('packer').startup(function()
   use 'nvim-lua/plenary.nvim'
   use 'kyazdani42/nvim-web-devicons'
   use 'romgrk/barbar.nvim'
+  use 'nvim-lualine/lualine.nvim'
 
 
   -- Treesitter
