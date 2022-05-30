@@ -4,6 +4,7 @@ if not cmp_status_ok then
   return
 end
 
+local tree_cb = require'nvim-tree.config'.nvim_tree_callback
 
 nvim_trees.setup { -- BEGIN_DEFAULT_OPTS
   auto_reload_on_write = true,
@@ -33,6 +34,9 @@ nvim_trees.setup { -- BEGIN_DEFAULT_OPTS
       custom_only = false,
       list = {
         -- user mappings go here
+        { key={"<CR>", "l"}, cb=tree_cb "edit"},
+        { key = "h", cb = tree_cb "close_node" },
+        { key = "v", cb = tree_cb "vsplit" },
       },
     },
   },
