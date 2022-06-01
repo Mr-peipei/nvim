@@ -18,7 +18,6 @@ vim.g.maplocalleader = " "
 -- --   term_mode = "t",
 -- --   command_mode = "c",
 
-
 -- Normal --
 keymap("n", "J", "5j", opts)
 keymap("n", "K", "5k", opts)
@@ -38,7 +37,6 @@ keymap("v", "K", "5k", opts)
 keymap("x", "J", "5j", opts)
 keymap("x", "K", "5k", opts)
 
-
 -- Custom --
 keymap("n", "<Leader>sv", "<cmd>source $MYVIMRC<CR>", opts)
 keymap("n", "<esc><esc>", "<cmd>nohlsearch<cr>", opts)
@@ -54,4 +52,4 @@ keymap("n", "<F5>", "<cmd>Telescope commands<CR>", opts)
 keymap("n", "<C-h>", "<cmd>BufferPrevious<cr>", opts)
 keymap("n", "<C-l>", "<cmd>BufferNext<CR>", opts)
 keymap("n", "<C-q>", "<cmd>BufferClose<CR>", opts)
-
+keymap("n", "<leader>sv", "<cmd>source $MYVIMRC<CR>", opts)
