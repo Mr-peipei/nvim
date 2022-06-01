@@ -25,6 +25,7 @@ return require("packer").startup(function()
 	use("kyazdani42/nvim-web-devicons")
 	use("romgrk/barbar.nvim")
 	use("nvim-lualine/lualine.nvim")
+	use("lukas-reineke/indent-blankline.nvim")
 	use({
 		"kyazdani42/nvim-tree.lua",
 		requires = {
