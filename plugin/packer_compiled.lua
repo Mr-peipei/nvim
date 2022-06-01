@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/home/murakami/.local/share/nvim/site/pack/packer/start/nerdfont.vim",
     url = "https://github.com/lambdalisue/nerdfont.vim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/murakami/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/murakami/.local/share/nvim/site/pack/packer/start/nvim-cmp",

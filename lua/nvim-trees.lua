@@ -34,7 +34,7 @@ nvim_trees.setup { -- BEGIN_DEFAULT_OPTS
       custom_only = false,
       list = {
         -- user mappings go here
-        { key={"<CR>", "l"}, cb=tree_cb "edit"},
+        { key={"<CR>", "l"}, cb = tree_cb "edit"},
         { key = "h", cb = tree_cb "close_node" },
         { key = "v", cb = tree_cb "vsplit" },
       },

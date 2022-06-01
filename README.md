@@ -1,6 +1,4 @@
-
 # Setup NeoVim
-
 
 ## For Windows
 
@@ -29,24 +27,41 @@ scoop install gcc
 ### Setup windows terminal
 
 For powershell the installation is:
+
 ```
 Install-Module oh-my-posh -Scope CurrentUser
 ```
 
 You can check theme by below the command
+
 ```
 Get-PoshThemes
 ```
 
 To import your theme on startup, create your profile
+
 ```
 nvim $PROFILE
 ```
+
 ```
 Set-PoshPrompt -Theme hogehoge
 ```
 
-
 ### Install NerdFont
 
 You can downloads nerds fonts by this [link](https://www.nerdfonts.com/font-downloads).
+
+## For Ubuntu
+
+### Install stylua
+
+```
+brew install stylua
+```
+
+### Install prettier
+
+```
+npm install -g prettier
+```
