@@ -65,3 +65,11 @@ brew install stylua
 ```
 npm install -g prettier
 ```
+
+### Install ripgrep
+
+```
+brew install ripgrep
+```
+
+※apt だと bat との依存関係か何かで落ちた
