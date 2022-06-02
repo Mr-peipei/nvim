@@ -33,14 +33,10 @@ return require("packer").startup(function()
 		},
 		tag = "nightly", -- optional, updated every week. (see issue #1193)
 	})
-	use({
-		"akinsho/toggleterm.nvim",
-		tag = "v1.*",
-		config = function()
-			require("toggleterm").setup()
-		end,
-	})
+	use("akinsho/toggleterm.nvim")
 	use("goolord/alpha-nvim")
+	use("ahmedkhalf/project.nvim")
+
 	-- Treesitter
 	use({
 		"nvim-treesitter/nvim-treesitter",
@@ -71,8 +67,5 @@ return require("packer").startup(function()
 	use("hrsh7th/vim-vsnip")
 
 	--git
-	use({
-		"lewis6991/gitsigns.nvim",
-		-- tag = 'release' -- To use the latest release
-	})
+	use("lewis6991/gitsigns.nvim")
 end)
