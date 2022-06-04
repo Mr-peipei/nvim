@@ -32,6 +32,10 @@ keymap("i", "jj", "<ESC>", opts)
 -- Visual --
 keymap("v", "J", "5j", opts)
 keymap("v", "K", "5k", opts)
+keymap("v", "H", "^", opts)
+keymap("v", "L", "$", opts)
+keymap("v", "j", "gj", opts)
+keymap("v", "k", "gk", opts)
 
 -- Visual Block
 keymap("x", "J", "5j", opts)

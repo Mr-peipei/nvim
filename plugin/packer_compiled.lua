@@ -219,6 +219,11 @@ _G.packer_plugins = {
     path = "/home/murakami/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/murakami/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
   ["typescript-vim"] = {
     loaded = true,
     path = "/home/murakami/.local/share/nvim/site/pack/packer/start/typescript-vim",

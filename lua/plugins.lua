@@ -14,6 +14,7 @@ return require("packer").startup(function()
 	use("tpope/vim-fugitive")
 	use("tpope/vim-commentary")
 	use("tomasiser/vim-code-dark") ---vimのカラースキーマ
+	use("folke/tokyonight.nvim")
 	-- use 'lambdalisue/fern.vim' ---ファイラー
 	-- use 'lambdalisue/fern-git-status.vim' ---ファイルツリーにgit差分表示
 	use("lambdalisue/nerdfont.vim") ---ファイラーのアイコン用
